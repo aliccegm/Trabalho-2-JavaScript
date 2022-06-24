@@ -1,0 +1,1004 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criação de Personagens</title>
+    <link rel="stylesheet" href="estilo.css">
+    <style>
+        body {
+            background-color: dimgray;
+        }
+    </style>
+
+    <div class="menu1">
+        <tr>
+        <p><center><h1>Criação de Personagens</h1></center> </p>
+        <p><a href="jogperso.html">Jogabilidade e personagens</a> </p>
+        <p><a href="criarperso.html">Criar personagens</a> </p>
+        <p><a href="sobre.html">Sobre</a> </p>
+        <p><a href="inicio.html">Início</a> </p>
+        </tr>
+    </div>
+
+</head>
+
+
+<body>
+
+    <h2>Personagem 1</h2>	
+
+    <div class = "for1">
+        <form class="form">
+	    </br></br>
+	    <div class="sobre-habilidades">
+            <h3><label for="Habilidades">Habilidades</label></h3>
+                </div>
+	            <div class="for3">
+	                <div>
+	                    <label for="nomePersonagem">Força</label>
+	                    <select name ="força" id="forcaPersonagem" name="forca"
+                            oninput="camposForca();"> 
+		                    <option value="15">15</option>
+		                    <option value="14">14</option>
+		         			<option value="13">13</option>
+                     		<option value="12">12</option>
+		                    <option value="11">11</option>
+		                    <option value="10">10</option>
+		                    <option value="09">09</option>
+		                    <option value="08">08</option>
+		                    <option value="07">07</option>
+		                    <option value="06">06</option>
+		                    <option value="05">05</option>
+		                    <option value="04">04</option>
+		                    <option value="03">03</option>
+		                    <option value="02">02</option>
+		                    <option value="01">01</option>
+	                    </select>
+	                </div>
+</br>
+	                <div>
+                        <label for="nomePersonagem">Precisão</label>
+                        <select name ="força" id="precisaoPersonagem" name="forca"
+                            oninput="camposPrecisao();">
+		                    <option value="15">15</option>
+		                    <option value="14">14</option>
+		                    <option value="13">13</option>
+		                    <option value="12">12</option>
+		                    <option value="11">11</option>
+		                    <option value="10">10</option>
+		                    <option value="09">09</option>
+		                    <option value="08">08</option>
+		                    <option value="07">07</option>
+		                    <option value="06">06</option>
+		                    <option value="05">05</option>
+		                    <option value="04">04</option>
+		                    <option value="03">03</option>
+		                    <option value="02">02</option>
+		                    <option value="01">01</option>
+	                    </select>
+	                </div>
+</br>
+	                <div>
+	                    <label for="nomePersonagem">Velocidade</label>
+                        <select name ="força" id="velocidadePersonagem" name="forca"
+                        oninput="camposVelocidade();">
+		                    <option value="15">15</option>
+		                    <option value="14">14</option>
+		                    <option value="13">13</option>
+		                    <option value="12">12</option>
+		                    <option value="11">11</option>
+		                    <option value="10">10</option>
+		                    <option value="09">09</option>
+		                    <option value="08">08</option>
+		                    <option value="07">07</option>
+		                    <option value="06">06</option>
+		                    <option value="05">05</option>
+		                    <option value="04">04</option>
+		                    <option value="03">03</option>
+		                    <option value="02">02</option>
+		                    <option value="01">01</option>
+	                    </select>
+	                </div>
+</br>
+	                <div>
+	                    <label for="nomePersonagem">Armadura</label>
+                        <select name ="força" id="armaduraPersonagem" name="forca"
+                            oninput="camposArmadura();">
+		                    <option value="15">15</option>
+		                    <option value="14">14</option>
+		                    <option value="13">13</option>
+		                    <option value="12">12</option>
+		                    <option value="11">11</option>
+		                    <option value="10">10</option>
+		                    <option value="09">09</option>
+		                    <option value="08">08</option>
+		                    <option value="07">07</option>
+		                    <option value="06">06</option>
+		                    <option value="05">05</option>
+		                    <option value="04">04</option>
+		                    <option value="03">03</option>
+		                    <option value="02">02</option>
+		                    <option value="01">01</option>
+	                    </select>
+	                </div>
+</br>
+	                <div>
+	                    <label for="nomePersonagem">Recuperação</label>
+                        <select name ="força" id="recuperacaoPersonagem" name="forca"
+                            oninput="camposRecuperacao();">
+		                    <option value="15">15</option>
+		                    <option value="14">14</option>
+		                    <option value="13">13</option>
+		                    <option value="12">12</option>
+		                    <option value="11">11</option>
+		                    <option value="10">10</option>
+		                    <option value="09">09</option>
+		                    <option value="08">08</option>
+		                    <option value="07">07</option>
+		                    <option value="06">06</option>
+		                    <option value="05">05</option>
+		                    <option value="04">04</option>
+		                    <option value="03">03</option>
+		                    <option value="02">02</option>
+		                    <option value="01">01</option>
+	                    </select>
+	                </div>
+</br>
+</div>
+	<div>
+		<input type="checkbox" name="caixa-inclusão-personagem">Incluir este personagem na batalha>
+	</div>
+</br>
+
+	<div>
+		<label for="nomePersonagem">Nome</label>
+			<input type="text" name="nomePersonagem">
+	</div>
+</br>
+
+    <div class= "for2">
+		<div class="nação2">
+</br></br>
+		<input type="radio" name="Nação">Elfo da Folresta</br>
+		<input type="radio" name="Nação">Elfo de Lothlórien</br>
+		<input type="radio" name="Nação">Orc Snaga</br>
+		<input type="radio" name="Nação">Uruk-hai
+	</div>
+
+	<div class=nação1>
+		Nação
+</br></br>
+		<input type="radio" name="Nação">Anão</br>
+		<input type="radio" name="Nação">Hobbit</br>
+		<input type="radio" name="Nação">Cavaleiro de Rohan</br>
+		<input type="radio" name="Nação">Guerreiro de Gondor							
+	</div>				
+</div>
+
+	
+	<button>Criar personagem 1</button>
+									
+	</form>
+
+	</div>
+	</td>
+	</tr>
+    <td>
+
+    <h2>Personagem 2</h2>	
+
+    <div class = "for1">
+        <form class="form">
+	    </br></br>
+	    <div class="sobre-habilidades">
+            <h3><label for="Habilidades">Habilidades</label></h3>
+                </div>
+	            <div class="for3">
+	                <div>
+	                    <label for="nomePersonagem">Força</label>
+	                    <select name ="força" id="forcaPersonagem" name="forca"
+                            oninput="camposForca();"> 
+		                    <option value="15">15</option>
+		                    <option value="14">14</option>
+		         			<option value="13">13</option>
+                     		<option value="12">12</option>
+		                    <option value="11">11</option>
+		                    <option value="10">10</option>
+		                    <option value="09">09</option>
+		                    <option value="08">08</option>
+		                    <option value="07">07</option>
+		                    <option value="06">06</option>
+		                    <option value="05">05</option>
+		                    <option value="04">04</option>
+		                    <option value="03">03</option>
+		                    <option value="02">02</option>
+		                    <option value="01">01</option>
+	                    </select>
+	                </div>
+</br>
+	                <div>
+                        <label for="nomePersonagem">Precisão</label>
+                        <select name ="força" id="precisaoPersonagem" name="forca"
+                            oninput="camposPrecisao();">
+		                    <option value="15">15</option>
+		                    <option value="14">14</option>
+		                    <option value="13">13</option>
+		                    <option value="12">12</option>
+		                    <option value="11">11</option>
+		                    <option value="10">10</option>
+		                    <option value="09">09</option>
+		                    <option value="08">08</option>
+		                    <option value="07">07</option>
+		                    <option value="06">06</option>
+		                    <option value="05">05</option>
+		                    <option value="04">04</option>
+		                    <option value="03">03</option>
+		                    <option value="02">02</option>
+		                    <option value="01">01</option>
+	                    </select>
+	                </div>
+</br>
+	                <div>
+	                    <label for="nomePersonagem">Velocidade</label>
+                        <select name ="força" id="velocidadePersonagem" name="forca"
+                        oninput="camposVelocidade();">
+		                    <option value="15">15</option>
+		                    <option value="14">14</option>
+		                    <option value="13">13</option>
+		                    <option value="12">12</option>
+		                    <option value="11">11</option>
+		                    <option value="10">10</option>
+		                    <option value="09">09</option>
+		                    <option value="08">08</option>
+		                    <option value="07">07</option>
+		                    <option value="06">06</option>
+		                    <option value="05">05</option>
+		                    <option value="04">04</option>
+		                    <option value="03">03</option>
+		                    <option value="02">02</option>
+		                    <option value="01">01</option>
+	                    </select>
+	                </div>
+</br>
+	                <div>
+	                    <label for="nomePersonagem">Armadura</label>
+                        <select name ="força" id="armaduraPersonagem" name="forca"
+                            oninput="camposArmadura();">
+		                    <option value="15">15</option>
+		                    <option value="14">14</option>
+		                    <option value="13">13</option>
+		                    <option value="12">12</option>
+		                    <option value="11">11</option>
+		                    <option value="10">10</option>
+		                    <option value="09">09</option>
+		                    <option value="08">08</option>
+		                    <option value="07">07</option>
+		                    <option value="06">06</option>
+		                    <option value="05">05</option>
+		                    <option value="04">04</option>
+		                    <option value="03">03</option>
+		                    <option value="02">02</option>
+		                    <option value="01">01</option>
+	                    </select>
+	                </div>
+</br>
+	                <div>
+	                    <label for="nomePersonagem">Recuperação</label>
+                        <select name ="força" id="recuperacaoPersonagem" name="forca"
+                            oninput="camposRecuperacao();">
+		                    <option value="15">15</option>
+		                    <option value="14">14</option>
+		                    <option value="13">13</option>
+		                    <option value="12">12</option>
+		                    <option value="11">11</option>
+		                    <option value="10">10</option>
+		                    <option value="09">09</option>
+		                    <option value="08">08</option>
+		                    <option value="07">07</option>
+		                    <option value="06">06</option>
+		                    <option value="05">05</option>
+		                    <option value="04">04</option>
+		                    <option value="03">03</option>
+		                    <option value="02">02</option>
+		                    <option value="01">01</option>
+	                    </select>
+	                </div>
+</br>
+</div>
+	<div>
+		<input type="checkbox" name="caixa-inclusão-personagem">Incluir este personagem na batalha>
+	</div>
+</br>
+
+	<div>
+		<label for="nomePersonagem">Nome</label>
+			<input type="text" name="nomePersonagem">
+	</div>
+</br>
+
+    <div class= "for2">
+		<div class="nação2">
+</br></br>
+		<input type="radio" name="Nação">Elfo da Folresta</br>
+		<input type="radio" name="Nação">Elfo de Lothlórien</br>
+		<input type="radio" name="Nação">Orc Snaga</br>
+		<input type="radio" name="Nação">Uruk-hai
+	</div>
+
+	<div class=nação1>
+		Nação
+</br></br>
+		<input type="radio" name="Nação">Anão</br>
+		<input type="radio" name="Nação">Hobbit</br>
+		<input type="radio" name="Nação">Cavaleiro de Rohan</br>
+		<input type="radio" name="Nação">Guerreiro de Gondor							
+	</div>				
+</div>
+
+	
+	<button>Criar personagem 2</button>
+									
+	
+            </form>
+        </div>
+	</td>
+</tr>
+    <td>
+
+    <h2>Personagem 3</h2>	
+
+        <div class = "for1">
+            <form class="form">
+</br></br>
+        <div class="sobre-habilidades">
+            <h3><label for="Habilidades">Habilidades</label></h3>
+                </div>
+                <div class="for3">
+                    <div>
+                        <label for="nomePersonagem">Força</label>
+                        <select name ="força" id="forcaPersonagem" name="forca"
+                            oninput="camposForca();"> 
+                            <option value="15">15</option>
+                            <option value="14">14</option>
+                            <option value="13">13</option>
+                            <option value="12">12</option>
+                            <option value="11">11</option>
+                            <option value="10">10</option>
+                            <option value="09">09</option>
+                            <option value="08">08</option>
+                            <option value="07">07</option>
+                            <option value="06">06</option>
+                            <option value="05">05</option>
+                            <option value="04">04</option>
+                            <option value="03">03</option>
+                            <option value="02">02</option>
+                            <option value="01">01</option>
+                        </select>
+                    </div>
+</br>
+                    <div>
+                        <label for="nomePersonagem">Precisão</label>
+                        <select name ="força" id="precisaoPersonagem" name="forca"
+                            oninput="camposPrecisao();">
+                            <option value="15">15</option>
+                            <option value="14">14</option>
+                            <option value="13">13</option>
+                            <option value="12">12</option>
+                            <option value="11">11</option>
+                            <option value="10">10</option>
+                            <option value="09">09</option>
+                            <option value="08">08</option>
+                            <option value="07">07</option>
+                            <option value="06">06</option>
+                            <option value="05">05</option>
+                            <option value="04">04</option>
+                            <option value="03">03</option>
+                            <option value="02">02</option>
+                            <option value="01">01</option>
+                        </select>
+                    </div>
+</br>
+                    <div>
+                        <label for="nomePersonagem">Velocidade</label>
+                        <select name ="força" id="velocidadePersonagem" name="forca"
+                            oninput="camposVelocidade();">
+                            <option value="15">15</option>
+                            <option value="14">14</option>
+                            <option value="13">13</option>
+                            <option value="12">12</option>
+                            <option value="11">11</option>
+                            <option value="10">10</option>
+                            <option value="09">09</option>
+                            <option value="08">08</option>
+                            <option value="07">07</option>
+                            <option value="06">06</option>
+                            <option value="05">05</option>
+                            <option value="04">04</option>
+                            <option value="03">03</option>
+                            <option value="02">02</option>
+                            <option value="01">01</option>
+                        </select>
+                    </div>
+</br>
+                    <div>
+                        <label for="nomePersonagem">Armadura</label>
+                        <select name ="força" id="armaduraPersonagem" name="forca"
+                            oninput="camposArmadura();">
+                            <option value="15">15</option>
+                            <option value="14">14</option>
+                            <option value="13">13</option>
+                            <option value="12">12</option>
+                            <option value="11">11</option>
+                            <option value="10">10</option>
+                            <option value="09">09</option>
+                            <option value="08">08</option>
+                            <option value="07">07</option>
+                            <option value="06">06</option>
+                            <option value="05">05</option>
+                            <option value="04">04</option>
+                            <option value="03">03</option>
+                            <option value="02">02</option>
+                            <option value="01">01</option>
+                        </select>
+                    </div>
+</br>
+                    <div>
+                        <label for="nomePersonagem">Recuperação</label>
+                        <select name ="força" id="recuperacaoPersonagem" name="forca"
+                            oninput="camposRecuperacao();">
+                            <option value="15">15</option>
+                            <option value="14">14</option>
+                            <option value="13">13</option>
+                            <option value="12">12</option>
+                            <option value="11">11</option>
+                            <option value="10">10</option>
+                            <option value="09">09</option>
+                            <option value="08">08</option>
+                            <option value="07">07</option>
+                            <option value="06">06</option>
+                            <option value="05">05</option>
+                            <option value="04">04</option>
+                            <option value="03">03</option>
+                            <option value="02">02</option>
+                            <option value="01">01</option>
+                        </select>
+                    </div>
+</br>
+</div>
+    <div>
+        <input type="checkbox" name="caixa-inclusão-personagem">Incluir este personagem na batalha>
+    </div>
+</br>
+    
+    <div>
+        <label for="nomePersonagem">Nome</label>
+        <input type="text" name="nomePersonagem">
+    </div>
+</br>
+    
+    <div class= "for2">
+        <div class="nação2">
+</br></br>
+        <input type="radio" name="Nação">Elfo da Folresta</br>
+        <input type="radio" name="Nação">Elfo de Lothlórien</br>
+        <input type="radio" name="Nação">Orc Snaga</br>
+        <input type="radio" name="Nação">Uruk-hai
+    </div>
+    
+    <div class=nação1>
+        Nação
+</br></br>
+        <input type="radio" name="Nação">Anão</br>
+        <input type="radio" name="Nação">Hobbit</br>
+        <input type="radio" name="Nação">Cavaleiro de Rohan</br>
+        <input type="radio" name="Nação">Guerreiro de Gondor							
+    </div>				
+</div>
+    
+        
+    <button>Criar personagem 3</button>
+                                        
+        
+            </form>
+        </div>
+    </td>
+</tr>
+        <td>
+
+    <h2>Personagem 4</h2>	
+
+        <div class = "for1">
+            <form class="form">
+</br></br>
+	    <div class="sobre-habilidades">
+            <h3><label for="Habilidades">Habilidades</label></h3>
+                </div>
+	            <div class="for3">
+	                <div>
+	                    <label for="nomePersonagem">Força</label>
+	                    <select name ="força" id="forcaPersonagem" name="forca"
+                            oninput="camposForca();"> 
+		                    <option value="15">15</option>
+		                    <option value="14">14</option>
+		         			<option value="13">13</option>
+                     		<option value="12">12</option>
+		                    <option value="11">11</option>
+		                    <option value="10">10</option>
+		                    <option value="09">09</option>
+		                    <option value="08">08</option>
+		                    <option value="07">07</option>
+		                    <option value="06">06</option>
+		                    <option value="05">05</option>
+		                    <option value="04">04</option>
+		                    <option value="03">03</option>
+		                    <option value="02">02</option>
+		                    <option value="01">01</option>
+	                    </select>
+	                </div>
+</br>
+	                <div>
+                        <label for="nomePersonagem">Precisão</label>
+                        <select name ="força" id="precisaoPersonagem" name="forca"
+                            oninput="camposPrecisao();">
+		                    <option value="15">15</option>
+		                    <option value="14">14</option>
+		                    <option value="13">13</option>
+		                    <option value="12">12</option>
+		                    <option value="11">11</option>
+		                    <option value="10">10</option>
+		                    <option value="09">09</option>
+		                    <option value="08">08</option>
+		                    <option value="07">07</option>
+		                    <option value="06">06</option>
+		                    <option value="05">05</option>
+		                    <option value="04">04</option>
+		                    <option value="03">03</option>
+		                    <option value="02">02</option>
+		                    <option value="01">01</option>
+	                    </select>
+	                </div>
+</br>
+	                <div>
+	                    <label for="nomePersonagem">Velocidade</label>
+                        <select name ="força" id="velocidadePersonagem" name="forca"
+                        oninput="camposVelocidade();">
+		                    <option value="15">15</option>
+		                    <option value="14">14</option>
+		                    <option value="13">13</option>
+		                    <option value="12">12</option>
+		                    <option value="11">11</option>
+		                    <option value="10">10</option>
+		                    <option value="09">09</option>
+		                    <option value="08">08</option>
+		                    <option value="07">07</option>
+		                    <option value="06">06</option>
+		                    <option value="05">05</option>
+		                    <option value="04">04</option>
+		                    <option value="03">03</option>
+		                    <option value="02">02</option>
+		                    <option value="01">01</option>
+	                    </select>
+	                </div>
+</br>
+	                <div>
+	                    <label for="nomePersonagem">Armadura</label>
+                        <select name ="força" id="armaduraPersonagem" name="forca"
+                            oninput="camposArmadura();">
+		                    <option value="15">15</option>
+		                    <option value="14">14</option>
+		                    <option value="13">13</option>
+		                    <option value="12">12</option>
+		                    <option value="11">11</option>
+		                    <option value="10">10</option>
+		                    <option value="09">09</option>
+		                    <option value="08">08</option>
+		                    <option value="07">07</option>
+		                    <option value="06">06</option>
+		                    <option value="05">05</option>
+		                    <option value="04">04</option>
+		                    <option value="03">03</option>
+		                    <option value="02">02</option>
+		                    <option value="01">01</option>
+	                    </select>
+	                </div>
+</br>
+	                <div>
+	                    <label for="nomePersonagem">Recuperação</label>
+                        <select name ="força" id="recuperacaoPersonagem" name="forca"
+                            oninput="camposRecuperacao();">
+		                    <option value="15">15</option>
+		                    <option value="14">14</option>
+		                    <option value="13">13</option>
+		                    <option value="12">12</option>
+		                    <option value="11">11</option>
+		                    <option value="10">10</option>
+		                    <option value="09">09</option>
+		                    <option value="08">08</option>
+		                    <option value="07">07</option>
+		                    <option value="06">06</option>
+		                    <option value="05">05</option>
+		                    <option value="04">04</option>
+		                    <option value="03">03</option>
+		                    <option value="02">02</option>
+		                    <option value="01">01</option>
+	                    </select>
+	                </div>
+</br>
+</div>
+	<div>
+		<input type="checkbox" name="caixa-inclusão-personagem">Incluir este personagem na batalha>
+	</div>
+</br>
+
+	<div>
+		<label for="nomePersonagem">Nome</label>
+			<input type="text" name="nomePersonagem">
+	</div>
+</br>
+
+    <div class= "for2">
+		<div class="nação2">
+</br></br>
+		<input type="radio" name="Nação">Elfo da Folresta</br>
+		<input type="radio" name="Nação">Elfo de Lothlórien</br>
+		<input type="radio" name="Nação">Orc Snaga</br>
+		<input type="radio" name="Nação">Uruk-hai
+	</div>
+
+	<div class=nação1>
+		Nação
+</br></br>
+		<input type="radio" name="Nação">Anão</br>
+		<input type="radio" name="Nação">Hobbit</br>
+		<input type="radio" name="Nação">Cavaleiro de Rohan</br>
+		<input type="radio" name="Nação">Guerreiro de Gondor							
+	</div>				
+</div>
+
+	
+	<button>Criar personagem 4</button>
+									
+	
+            </form>
+        </div>
+	</td>
+</tr>
+    <td>
+
+    <h2>Personagem 5</h2>	
+
+    <div class = "for1">
+        <form class="form">
+</br></br>
+        <div class="sobre-habilidades">
+            <h3><label for="Habilidades">Habilidades</label></h3>
+                </div>
+                <div class="for3">
+                    <div>
+                        <label for="nomePersonagem">Força</label>
+                        <select name ="força" id="forcaPersonagem" name="forca"
+                            oninput="camposForca();"> 
+                            <option value="15">15</option>
+                            <option value="14">14</option>
+                            <option value="13">13</option>
+                            <option value="12">12</option>
+                            <option value="11">11</option>
+                            <option value="10">10</option>
+                            <option value="09">09</option>
+                            <option value="08">08</option>
+                            <option value="07">07</option>
+                            <option value="06">06</option>
+                            <option value="05">05</option>
+                            <option value="04">04</option>
+                            <option value="03">03</option>
+                            <option value="02">02</option>
+                            <option value="01">01</option>
+                        </select>
+                    </div>
+</br>
+                    <div>
+                        <label for="nomePersonagem">Precisão</label>
+                        <select name ="força" id="precisaoPersonagem" name="forca"
+                            oninput="camposPrecisao();">
+                            <option value="15">15</option>
+                            <option value="14">14</option>
+                            <option value="13">13</option>
+                            <option value="12">12</option>
+                            <option value="11">11</option>
+                            <option value="10">10</option>
+                            <option value="09">09</option>
+                            <option value="08">08</option>
+                            <option value="07">07</option>
+                            <option value="06">06</option>
+                            <option value="05">05</option>
+                            <option value="04">04</option>
+                            <option value="03">03</option>
+                            <option value="02">02</option>
+                            <option value="01">01</option>
+                        </select>
+                    </div>
+</br>
+                    <div>
+                        <label for="nomePersonagem">Velocidade</label>
+                        <select name ="força" id="velocidadePersonagem" name="forca"
+                            oninput="camposVelocidade();">
+                                <option value="15">15</option>
+                            <option value="14">14</option>
+                            <option value="13">13</option>
+                            <option value="12">12</option>
+                            <option value="11">11</option>
+                            <option value="10">10</option>
+                            <option value="09">09</option>
+                            <option value="08">08</option>
+                            <option value="07">07</option>
+                            <option value="06">06</option>
+                            <option value="05">05</option>
+                            <option value="04">04</option>
+                            <option value="03">03</option>
+                            <option value="02">02</option>
+                            <option value="01">01</option>
+                        </select>
+                    </div>
+</br>
+                    <div>
+                        <label for="nomePersonagem">Armadura</label>
+                        <select name ="força" id="armaduraPersonagem" name="forca"
+                            oninput="camposArmadura();">
+                            <option value="15">15</option>
+                            <option value="14">14</option>
+                            <option value="13">13</option>
+                            <option value="12">12</option>
+                            <option value="11">11</option>
+                            <option value="10">10</option>
+                            <option value="09">09</option>
+                            <option value="08">08</option>
+                            <option value="07">07</option>
+                            <option value="06">06</option>
+                            <option value="05">05</option>
+                            <option value="04">04</option>
+                            <option value="03">03</option>
+                            <option value="02">02</option>
+                            <option value="01">01</option>
+                        </select>
+                    </div>
+</br>
+                    <div>
+                        <label for="nomePersonagem">Recuperação</label>
+                        <select name ="força" id="recuperacaoPersonagem" name="forca"
+                            oninput="camposRecuperacao();">
+                            <option value="15">15</option>
+                            <option value="14">14</option>
+                            <option value="13">13</option>
+                            <option value="12">12</option>
+                            <option value="11">11</option>
+                            <option value="10">10</option>
+                            <option value="09">09</option>
+                            <option value="08">08</option>
+                            <option value="07">07</option>
+                            <option value="06">06</option>
+                            <option value="05">05</option>
+                            <option value="04">04</option>
+                            <option value="03">03</option>
+                            <option value="02">02</option>
+                            <option value="01">01</option>
+                        </select>
+                    </div>
+</br>
+</div>
+
+    <div>
+        <input type="checkbox" name="caixa-inclusão-personagem">Incluir este personagem na batalha>
+    </div>
+</br>
+    
+    <div>
+        <label for="nomePersonagem">Nome</label>
+        <input type="text" name="nomePersonagem">
+    </div>
+</br>
+    
+    <div class= "for2">
+        <div class="nação2">
+</br></br>
+        <input type="radio" name="Nação">Elfo da Folresta</br>
+        <input type="radio" name="Nação">Elfo de Lothlórien</br>
+        <input type="radio" name="Nação">Orc Snaga</br>
+        <input type="radio" name="Nação">Uruk-hai
+    </div>
+    
+    <div class=nação1>
+        Nação
+</br></br>
+        <input type="radio" name="Nação">Anão</br>
+        <input type="radio" name="Nação">Hobbit</br>
+        <input type="radio" name="Nação">Cavaleiro de Rohan</br>
+        <input type="radio" name="Nação">Guerreiro de Gondor							
+    </div>				
+</div>
+    
+        
+    <button>Criar personagem 5</button>
+                                        
+        
+                </form>
+            </div>
+        </td>
+    </tr>
+        <td>
+
+    <h2>Personagem 6</h2>	
+
+        <div class = "for1">
+            <form class="form">
+</br></br>
+            <div class="sobre-habilidades">
+                <h3><label for="Habilidades">Habilidades</label></h3>
+                    </div>
+                    <div class="for3">
+                        <div>
+                        <label for="nomePersonagem">Força</label>
+                        <select name ="força" id="forcaPersonagem" name="forca"
+                                oninput="camposForca();"> 
+                            <option value="15">15</option>
+                            <option value="14">14</option>
+                            <option value="13">13</option>
+                            <option value="12">12</option>
+                            <option value="11">11</option>
+                            <option value="10">10</option>
+                            <option value="09">09</option>
+                            <option value="08">08</option>
+                            <option value="07">07</option>
+                            <option value="06">06</option>
+                            <option value="05">05</option>
+                            <option value="04">04</option>
+                            <option value="03">03</option>
+                            <option value="02">02</option>
+                            <option value="01">01</option>
+                        </select>
+                    </div>
+</br>
+                    <div>
+                        <label for="nomePersonagem">Precisão</label>
+                        <select name ="força" id="precisaoPersonagem" name="forca"
+                            oninput="camposPrecisao();">
+                            <option value="15">15</option>
+                            <option value="14">14</option>
+                            <option value="13">13</option>
+                            <option value="12">12</option>
+                            <option value="11">11</option>
+                            <option value="10">10</option>
+                            <option value="09">09</option>
+                            <option value="08">08</option>
+                            <option value="07">07</option>
+                            <option value="06">06</option>
+                            <option value="05">05</option>
+                            <option value="04">04</option>
+                            <option value="03">03</option>
+                            <option value="02">02</option>
+                            <option value="01">01</option>
+                        </select>
+                    </div>
+</br>
+                    <div>
+                        <label for="nomePersonagem">Velocidade</label>
+                        <select name ="força" id="velocidadePersonagem" name="forca"
+                            oninput="camposVelocidade();">
+                            <option value="15">15</option>
+                            <option value="14">14</option>
+                            <option value="13">13</option>
+                            <option value="12">12</option>
+                            <option value="11">11</option>
+                            <option value="10">10</option>
+                            <option value="09">09</option>
+                            <option value="08">08</option>
+                            <option value="07">07</option>
+                            <option value="06">06</option>
+                            <option value="05">05</option>
+                            <option value="04">04</option>
+                            <option value="03">03</option>
+                            <option value="02">02</option>
+                            <option value="01">01</option>
+                        </select>
+                    </div>
+</br>
+                    <div>
+                        <label for="nomePersonagem">Armadura</label>
+                        <select name ="força" id="armaduraPersonagem" name="forca"
+                            oninput="camposArmadura();">
+                            <option value="15">15</option>
+                            <option value="14">14</option>
+                            <option value="13">13</option>
+                            <option value="12">12</option>
+                            <option value="11">11</option>
+                            <option value="10">10</option>
+                            <option value="09">09</option>
+                            <option value="08">08</option>
+                            <option value="07">07</option>
+                            <option value="06">06</option>
+                            <option value="05">05</option>
+                            <option value="04">04</option>
+                            <option value="03">03</option>
+                            <option value="02">02</option>
+                            <option value="01">01</option>
+                        </select>
+                    </div>
+</br>
+                    <div>
+                        <label for="nomePersonagem">Recuperação</label>
+                        <select name ="força" id="recuperacaoPersonagem" name="forca"
+                            oninput="camposRecuperacao();">
+                            <option value="15">15</option>
+                            <option value="14">14</option>
+                            <option value="13">13</option>
+                            <option value="12">12</option>
+                            <option value="11">11</option>
+                            <option value="10">10</option>
+                            <option value="09">09</option>
+                            <option value="08">08</option>
+                            <option value="07">07</option>
+                            <option value="06">06</option>
+                            <option value="05">05</option>
+                            <option value="04">04</option>
+                            <option value="03">03</option>
+                            <option value="02">02</option>
+                            <option value="01">01</option>
+                        </select>
+                    </div>
+</br>
+</div>
+    <div>
+        <input type="checkbox" name="caixa-inclusão-personagem">Incluir este personagem na batalha>
+    </div>
+</br>
+        
+    <div>
+        <label for="nomePersonagem">Nome</label>
+        <input type="text" name="nomePersonagem">
+    </div>
+</br>
+        
+    <div class= "for2">
+        <div class="nação2">
+</br></br>
+        <input type="radio" name="Nação">Elfo da Folresta</br>
+        <input type="radio" name="Nação">Elfo de Lothlórien</br>
+        <input type="radio" name="Nação">Orc Snaga</br>
+        <input type="radio" name="Nação">Uruk-hai
+        </div>
+        
+    <div class=nação1>
+        Nação
+</br></br>
+        <input type="radio" name="Nação">Anão</br>
+        <input type="radio" name="Nação">Hobbit</br>
+        <input type="radio" name="Nação">Cavaleiro de Rohan</br>
+        <input type="radio" name="Nação">Guerreiro de Gondor							
+    </div>				
+</div>
+        
+    <button>Criar personagem 6</button>
+                                            
+        </form>
+                </div>
+            </td>
+        </tr>
+            <td>
+
+<br>
+
+    <center>
+        <td colspan="2"></td>
+        <footer>
+            Cursos de TI da Estácio de Brasília em 2022.1 (TIEB 2022.1)</br>
+            Todos od direitos reservados</br>
+            (Terra- Média, locais e personagens são direitos de <a href="https://www.middleearth.com/home.html">Tolkien Enterprises.</a></br>
+            </footer>
+        </td>
+    </center>
+
+    <script src="json.js"></script>
+    
+</body>
+</html>
